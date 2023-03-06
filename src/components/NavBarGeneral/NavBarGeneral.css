@@ -21,6 +21,7 @@
   margin: 0px 10px 0px 10px;
 }
 
-/* .link:hover {
-    color: white;
-  } */
+.link-general:hover {
+  font-size: 18px;
+  text-decoration: underline;
+}
