@@ -2,6 +2,10 @@ import React from "react";
 import "./HomePage.css";
 import NavBar from "../../components/NavBarHomePage/NavBar";
 import introductionmeimage from "../../images/introduction-me.jpeg";
+import honey1 from "../../images/honey1.jpeg";
+import honey2 from "../../images/honey2.jpeg";
+import honey3 from "../../images/honey3.jpeg";
+import { Link } from "react-router-dom";
 
 export default function HomePage() {
   return (
@@ -43,10 +47,29 @@ export default function HomePage() {
             </div>
           </div>
         </div>
+
+        <div className="decoration"></div>
         <div className="ServicesIntroductionContainer">
-          <p>Area I service</p>
-          <p>Why I provide this service</p>
-          <div>Photos I've taken</div>
+          <div className="homepage-images-container">
+            <img src={honey1} className="homepage-images"></img>
+            <img src={honey2} className="homepage-images"></img>
+            <img src={honey3} className="homepage-images"></img>
+          </div>
+          <div className="homepage-services-description">
+            <p>
+              DO YOU LIKE WHAT YOU SEE?{" "}
+              <Link to="/pricing" className="link-to-pages">
+                LEARN MORE ABOUT MY SERVICES!
+              </Link>
+            </p>
+            <p className="or">OR</p>
+            <p>
+              DO YOU HAVE ANY QUESTIONS?{" "}
+              <Link to="/contactme" className="link-to-pages">
+                SEND ME AN EMAIL TO CONNECT!
+              </Link>
+            </p>
+          </div>
         </div>
       </div>
     </>
