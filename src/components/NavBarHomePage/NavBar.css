@@ -1,0 +1,29 @@
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  height: 600px;
+  background-image: url("../../images/header-image.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  margin: 75px 25px;
+  font-size: 16px;
+  font-family: "Rokkitt";
+  font-weight: bold;
+}
+
+.logo-img {
+  height: 50px;
+  margin: 27.5px 10px 0px 10px;
+}
+
+/* .link:hover {
+  color: white;
+} */
