@@ -1,0 +1,13 @@
+.ContactMePage {
+  height: 1000px;
+}
+
+.contactme-header-images {
+  height: 300px;
+  width: 100%;
+  background-color: #a8b89f;
+}
+
+.contactme-container {
+  height: 500px;
+}

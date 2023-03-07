@@ -8,7 +8,6 @@ export default function Pricing() {
     <>
       <NavBar />
       <div className="ServicesContainer">
-        <div className="services-header-images">Images</div>
         <div className="individual-service">
           <div className="service-description-container">
             <div className="service-description-text">
@@ -111,8 +110,7 @@ export default function Pricing() {
                 over some of the info you told me about you and your furry
                 family (from the questionnaire), and give your pet(s) some time
                 to get to know me and get comfotable. Then we'll get into the
-                photoshoot and capture those sweet moments of you and your
-                family.
+                photoshoot and have some fun!.
               </p>
               <h3>WHAT'S INCLUDED?</h3>
               <ul className="service-list">
@@ -169,7 +167,7 @@ export default function Pricing() {
         </div>
 
         <div className="service-info-other">
-          <h2>OTHER SHOOT INQUIRIES</h2>
+          <h2>OTHER PHOTOSHOOT INQUIRIES</h2>
           <p>
             Having a birthday party for your pet or any other type of special
             event? Send me a message to chat about setting up a session that

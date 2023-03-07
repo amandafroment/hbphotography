@@ -1,13 +1,7 @@
 .ServicesContainer {
-  height: 3000px;
+  height: 2800px;
   width: 100%;
   font-family: "Rokkitt";
-}
-
-.services-header-images {
-  height: 200px;
-  width: 100%;
-  background-color: #a8b89f;
 }
 
 .individual-service {
