@@ -13,7 +13,7 @@ export default function NavBarGeneral() {
         <Link to="/aboutme" className="link-general">
           ABOUT
         </Link>
-        <Link to="" className="logo-img-general">
+        <Link to="/" className="logo-img-general">
           <img src={logoimg} className="logo-img-general"></img>
         </Link>
         <Link to="/pricing" className="link-general">

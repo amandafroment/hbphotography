@@ -9,6 +9,7 @@ import honey4 from "../../images/honey4.jpeg";
 import honey5 from "../../images/honey5.jpeg";
 import honey6 from "../../images/honey6.jpeg";
 import honey7 from "../../images/honey7.jpeg";
+import honey8 from "../../images/header-image.jpeg";
 import { Link } from "react-router-dom";
 
 export default function HomePage() {
@@ -63,7 +64,7 @@ export default function HomePage() {
             <img src={honey2} className="homepage-images"></img>
             <div className="inner-image-container">
               <img src={honey6} className="inner-image"></img>
-              <img src={honey7} className="inner-image"></img>
+              <img src={honey8} className="inner-image"></img>
             </div>
             <img src={honey3} className="homepage-images"></img>
           </div>

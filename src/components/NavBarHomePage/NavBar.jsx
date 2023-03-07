@@ -13,7 +13,7 @@ export default function NavBar() {
         <Link to="/aboutme" className="link">
           ABOUT
         </Link>
-        <Link to="" className="logo-img">
+        <Link to="/" className="logo-img">
           <img src={logoimg} className="logo-img"></img>
         </Link>
         <Link to="/pricing" className="link">
