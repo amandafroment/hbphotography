@@ -1,5 +1,6 @@
 .ContactMePage {
   height: 1000px;
+  font-family: "Rokkitt";
 }
 
 .contactme-header-images {
@@ -10,4 +11,39 @@
 
 .contactme-container {
   height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactme-title {
+  margin: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 600px;
+  text-align: left;
+}
+
+label {
+  margin: 5px 0px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.contactme-details {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  text-align: left;
 }
