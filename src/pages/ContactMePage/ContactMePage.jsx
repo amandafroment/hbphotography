@@ -14,15 +14,23 @@ export default function ContactMePage() {
           </h2>
           <form>
             <label>Your Name: </label>
-            <input type="text"></input>
+            <input type="text" className="input"></input>
             <label>Email Address:</label>
-            <input type="email"></input>
+            <input type="email" className="input"></input>
             <label>Phone Number:</label>
-            <input type="text"></input>
+            <input type="text" className="input"></input>
             <label>
               What type of session are you looking for/any other details?
             </label>
-            <input type="text" className="contactme-details" max="500"></input>
+            <textarea
+              type="text"
+              className="contactme-details"
+              max="500"
+              rows="10"
+            ></textarea>
+            <button value="submit" className="contactme-submit">
+              SUBMIT
+            </button>
           </form>
         </div>
       </div>

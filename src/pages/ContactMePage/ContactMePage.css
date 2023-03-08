@@ -1,5 +1,5 @@
 .ContactMePage {
-  height: 1000px;
+  height: 1200px;
   font-family: "Rokkitt";
 }
 
@@ -10,7 +10,7 @@
 }
 
 .contactme-container {
-  height: 500px;
+  height: 750px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,15 +35,38 @@ label {
 }
 
 input {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-family: "Rokkitt";
+}
+
+.input {
+  height: 50px;
 }
 
 .contactme-details {
-  height: 100px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-content: flex-start;
   text-align: left;
+}
+
+.contactme-submit {
+  height: 50px;
+  width: 175px;
+  font-family: "Rokkitt";
+  font-size: 16px;
+  background-color: #a8b89f;
+  border: 1px solid #a8b89f;
+  color: white;
+  font-weight: bold;
+  align-self: center;
+  margin: 25px;
+}
+
+.contactme-submit:hover {
+  background-color: #94a48b;
+  font-size: 18px;
 }
