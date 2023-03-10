@@ -1,11 +1,21 @@
 .Footer {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 200px;
-  background-color: #a8b89f;
+  height: 250px;
+  /* background-color: #a8b89f; */
+}
+
+.footer-inner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 150px;
+  width: 85%;
 }
 
 .footer-links-container {
@@ -13,12 +23,11 @@
   flex-direction: column;
   justify-content: center;
   align-content: flex-start;
-  width: 20%;
+  width: 75%;
   text-align: left;
 }
 
 .footer-link {
-  margin-left: 75px;
   font-size: 14px;
   line-height: 1.5;
   font-family: "Rokkitt";
@@ -35,11 +44,25 @@
 .socials-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   width: 20%;
 }
 
-.socials {
-  margin-right: 25px;
+.instagram-logo {
+  height: 20px;
+}
+
+.footer-decoration {
+  align-self: center;
+  width: 85%;
+  height: 1px;
+  background-color: #a8b89f;
+}
+
+.copyright {
+  font-size: 14px;
+  font-family: "Rokkitt";
+  font-style: italic;
+  margin-bottom: 0;
 }

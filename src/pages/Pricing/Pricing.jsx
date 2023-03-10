@@ -2,6 +2,23 @@ import React from "react";
 import NavBar from "../../components/NavBarGeneral/NavBarGeneral";
 import "./Pricing.css";
 import { Link } from "react-router-dom";
+import murphy7 from "../../images/murphy7.jpg";
+import murphy12 from "../../images/murphy12.jpg";
+import honey6 from "../../images/honey6.jpeg";
+import honey16 from "../../images/honey16.jpg";
+import murphy10 from "../../images/murphy10.jpg";
+import murphy4 from "../../images/murphy4.jpg";
+import murphy5 from "../../images/murphy5.jpg";
+import honey1 from "../../images/honey1.jpeg";
+import honey10 from "../../images/honey10.jpg";
+import murphy23 from "../../images/other-photoshoot/murphy23.jpg";
+import murphy24 from "../../images/other-photoshoot/murphy24.jpg";
+import murphy25 from "../../images/other-photoshoot/murphy25.jpg";
+
+import honey5 from "../../images/honey5.jpeg";
+import honey2 from "../../images/honey2.jpeg";
+import murphy2 from "../../images/murphy2.jpg";
+import honey7 from "../../images/honey7.jpeg";
 
 export default function Pricing() {
   return (
@@ -39,7 +56,7 @@ export default function Pricing() {
                   Pre-shoot questionnaire to help me learn more about you and
                   your pet family
                 </li>
-                <li>20-25 professionally editted high resolution images</li>
+                <li>15-20 professionally editted high resolution images</li>
                 <li>
                   Online gallery to look at and download your images (full
                   gallery will be delivered about 2 weeks from your session
@@ -82,15 +99,33 @@ export default function Pricing() {
             </div>
           </div>
           <div className="service-image-container">
-            <img></img>
-            <p>Image container</p>
+            <div className="service-images">
+              <div className="service-outer-container">
+                <img src={murphy7} className="service-outer"></img>
+                <img src={honey16} className="service-outer"></img>
+              </div>
+              <img src={honey6} className="service-inner"></img>
+              <div className="service-outer-container">
+                <img src={murphy7} className="service-outer"></img>
+                <img src={murphy12} className="service-outer"></img>
+              </div>
+            </div>
           </div>
         </div>
 
         <div className="individual-service">
-          <div className="service-image-container">
-            <img></img>
-            <p>Image container</p>
+          <div className="service-image-container sic2">
+            <div className="service-images">
+              <div className="service-outer-container">
+                <img src={murphy10} className="service-outer"></img>
+                <img src={murphy4} className="service-outer"></img>
+              </div>
+              <img src={honey10} className="service-inner"></img>
+              <div className="service-outer-container">
+                <img src={honey1} className="service-outer"></img>
+                <img src={murphy5} className="service-outer"></img>
+              </div>
+            </div>
           </div>
           <div className="service-description-container">
             <div className="service-description-text">
@@ -122,7 +157,7 @@ export default function Pricing() {
                   Pre-shoot questionnaire to help me learn more about you and
                   your pet family
                 </li>
-                <li>15-20 professionally editted high resolution images</li>
+                <li>10-15 professionally editted high resolution images</li>
                 <li>
                   Online gallery to look at and download your images (full
                   gallery will be delivered about 2 weeks from your session
@@ -165,23 +200,6 @@ export default function Pricing() {
             </div>
           </div>
         </div>
-
-        <div className="service-info-other">
-          <h2>OTHER PHOTOSHOOT INQUIRIES</h2>
-          <p>
-            Having a birthday party for your pet or any other type of special
-            event? Send me a message to chat about setting up a session that
-            works for what you need.
-          </p>
-          <p className="or">OR</p>
-          <p>
-            Don't have a pet but like my style of photography? I would be more
-            than happy to capture the life moments you want to cherish!
-          </p>
-          <Link to="/contactme" className="contact-link">
-            CONNECT WITH ME!
-          </Link>
-        </div>
         <div className="travel-info">
           <h3>Travel Information for Outside of Hamilton</h3>
           <p>
@@ -189,6 +207,37 @@ export default function Pricing() {
             travel free ($0.75/km + any parking fees) applies and will be added
             to your final invoice.
           </p>
+        </div>
+        <div className="service-info-other">
+          <div className="service-decoration"></div>
+
+          <h2>OTHER PHOTOSHOOT INQUIRIES</h2>
+          <p>
+            Having a birthday party for your pet or any other type of special
+            event? Send me a message to chat about setting up a session that
+            works for what you need.
+          </p>
+          {/* <p className="or">OR</p> */}
+          <p>
+            Don't have a pet but like my style of photography? I would be more
+            than happy to capture the life moments you want to cherish.
+          </p>
+          <Link to="/contactme" className="contact-link">
+            CONNECT WITH ME!
+          </Link>
+        </div>
+        <div className="service-info-other-images">
+          <img src={murphy23} className="other-photoshoot-images"></img>
+          <div className="other-inner-image-container">
+            <img src={murphy25} className="other-inner-image"></img>
+            <img src={honey5} className="other-inner-image"></img>
+          </div>
+          <img src={honey2} className="other-photoshoot-images"></img>
+          <div className="other-inner-image-container">
+            <img src={murphy2} className="other-inner-image"></img>
+            <img src={honey7} className="other-inner-image"></img>
+          </div>
+          <img src={murphy24} className="other-photoshoot-images"></img>
         </div>
       </div>
     </>
