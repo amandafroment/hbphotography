@@ -1,11 +1,11 @@
 import React from "react";
 import NavBar from "../../components/NavBarGeneral/NavBarGeneral";
 import "./ContactMePage.css";
-import murphy15 from "../../images/murphy15.jpg";
-import murphy6 from "../../images/murphy6.jpg";
-import honey10 from "../../images/honey10.jpg";
-import honey15 from "../../images/honey15.jpg";
-import murphy1 from "../../images/murphy1.jpg";
+import bloobs4 from "../../images/contact-me/bloobs4.jpg";
+import murphy6 from "../../images/contact-me/murphy6.jpg";
+import honey15 from "../../images/contact-me/honey15.jpg";
+import murphy1 from "../../images/homepage/murphy1.jpg";
+import bloobs5 from "../../images/contact-me/bloobs5.jpg";
 
 export default function ContactMePage() {
   return (
@@ -13,10 +13,11 @@ export default function ContactMePage() {
       <NavBar />
       <div className="ContactMePage">
         <div className="contactme-header-images">
-          <img src={murphy15}></img>
-          <img src={honey10} className="contactme-inner-image"></img>
-          <img src={honey15}></img>
+          <img src={bloobs4}></img>
           <img src={murphy6} className="contactme-inner-image"></img>
+          <img src={honey15}></img>
+          <img src={bloobs5} className="contactme-inner-image"></img>
+
           <img src={murphy1}></img>
         </div>
         <div className="contactme-container">
@@ -24,24 +25,24 @@ export default function ContactMePage() {
             LIKE WHAT YOU'VE SEEN? SEND ME A MESSAGE BELOW TO CONNECT!
           </h2>
           <form
-            action="https://formsubmit.co/amanda.froment@hotmail.com"
+            action="https://formsubmit.co/5b957151a8e94200788f28b6f6b2979e"
             method="POST"
           >
             <label>Your Name: </label>
-            <input type="text" className="input" name="email" required></input>
+            <input type="text" className="input" name="name" required></input>
             <label>Email Address:</label>
             <input type="email" className="input" name="email" required></input>
             <label>Phone Number:</label>
-            <input type="text" className="input" name="email" required></input>
+            <input type="text" className="input" name="phone" required></input>
             <label>
               What type of session are you looking for/any other details?
             </label>
             <textarea
-              type="text"
               className="contactme-details"
               max="500"
               rows="10"
-              name="email"
+              type="text"
+              name="description"
               required
             ></textarea>
             <button value="submit" className="contactme-submit">

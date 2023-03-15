@@ -79,4 +79,5 @@
 .contactme-button:hover {
   background-color: #94a48b;
   font-size: 18px;
+  cursor: pointer;
 }

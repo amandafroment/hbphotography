@@ -2,23 +2,27 @@ import React from "react";
 import NavBar from "../../components/NavBarGeneral/NavBarGeneral";
 import "./Pricing.css";
 import { Link } from "react-router-dom";
-import murphy7 from "../../images/murphy7.jpg";
-import murphy12 from "../../images/murphy12.jpg";
-import honey6 from "../../images/honey6.jpeg";
-import honey16 from "../../images/honey16.jpg";
-import murphy10 from "../../images/murphy10.jpg";
-import murphy4 from "../../images/murphy4.jpg";
-import murphy5 from "../../images/murphy5.jpg";
-import honey1 from "../../images/honey1.jpeg";
-import honey10 from "../../images/honey10.jpg";
-import murphy23 from "../../images/other-photoshoot/murphy23.jpg";
-import murphy24 from "../../images/other-photoshoot/murphy24.jpg";
-import murphy25 from "../../images/other-photoshoot/murphy25.jpg";
 
-import honey5 from "../../images/honey5.jpeg";
-import honey2 from "../../images/honey2.jpeg";
-import murphy2 from "../../images/murphy2.jpg";
-import honey7 from "../../images/honey7.jpeg";
+import murphy3 from "../../images/pricing/murphy3.jpg";
+import bloobs9 from "../../images/pricing/bloobs9.jpg";
+import honey6 from "../../images/pricing/honey6.jpeg";
+import bloobs7 from "../../images/pricing/bloobs7.jpg";
+import murphy18 from "../../images/pricing/murphy18.jpg";
+
+import honey1 from "../../images/pricing/honey1.jpeg";
+import honey7 from "../../images/pricing/honey7.jpeg";
+import honey16 from "../../images/pricing/honey16.jpg";
+import murphy4 from "../../images/pricing/murphy4.jpg";
+import murphy5 from "../../images/pricing/murphy5.jpg";
+import murphy10 from "../../images/pricing/murphy10.jpg";
+
+import tattoo1 from "../../images/other-photoshoot/tattoo1.jpg";
+import megan3 from "../../images/other-photoshoot/megan3.jpg";
+import andres1 from "../../images/other-photoshoot/andres1.jpg";
+import murphy23 from "../../images/other-photoshoot/murphy23.jpg";
+import wall1 from "../../images/other-photoshoot/wall1.jpg";
+import megan1 from "../../images/other-photoshoot/megan1.jpg";
+import megan2 from "../../images/other-photoshoot/megan2.jpg";
 
 export default function Pricing() {
   return (
@@ -101,13 +105,13 @@ export default function Pricing() {
           <div className="service-image-container">
             <div className="service-images">
               <div className="service-outer-container">
-                <img src={murphy7} className="service-outer"></img>
-                <img src={honey16} className="service-outer"></img>
+                <img src={murphy3} className="service-outer"></img>
+                <img src={bloobs9} className="service-outer"></img>
               </div>
               <img src={honey6} className="service-inner"></img>
               <div className="service-outer-container">
-                <img src={murphy7} className="service-outer"></img>
-                <img src={murphy12} className="service-outer"></img>
+                <img src={bloobs7} className="service-outer"></img>
+                <img src={murphy18} className="service-outer"></img>
               </div>
             </div>
           </div>
@@ -120,7 +124,7 @@ export default function Pricing() {
                 <img src={murphy10} className="service-outer"></img>
                 <img src={murphy4} className="service-outer"></img>
               </div>
-              <img src={honey10} className="service-inner"></img>
+              <img src={honey7} className="service-inner"></img>
               <div className="service-outer-container">
                 <img src={honey1} className="service-outer"></img>
                 <img src={murphy5} className="service-outer"></img>
@@ -222,22 +226,22 @@ export default function Pricing() {
             Don't have a pet but like my style of photography? I would be more
             than happy to capture the life moments you want to cherish.
           </p>
-          <Link to="/contactme" className="contact-link">
-            CONNECT WITH ME!
+          <Link to="/contactme">
+            <button className="connect-me-button">CONNECT WITH ME</button>
           </Link>
         </div>
         <div className="service-info-other-images">
+          <img src={tattoo1} className="other-photoshoot-images"></img>
+          <div className="other-inner-image-container">
+            <img src={megan3} className="other-inner-image"></img>
+            <img src={andres1} className="other-inner-image"></img>
+          </div>
           <img src={murphy23} className="other-photoshoot-images"></img>
           <div className="other-inner-image-container">
-            <img src={murphy25} className="other-inner-image"></img>
-            <img src={honey5} className="other-inner-image"></img>
+            <img src={wall1} className="other-inner-image"></img>
+            <img src={megan1} className="other-inner-image"></img>
           </div>
-          <img src={honey2} className="other-photoshoot-images"></img>
-          <div className="other-inner-image-container">
-            <img src={murphy2} className="other-inner-image"></img>
-            <img src={honey7} className="other-inner-image"></img>
-          </div>
-          <img src={murphy24} className="other-photoshoot-images"></img>
+          <img src={megan2} className="other-photoshoot-images"></img>
         </div>
       </div>
     </>

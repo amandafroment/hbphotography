@@ -2,16 +2,13 @@ import React from "react";
 import "./HomePage.css";
 import NavBar from "../../components/NavBarHomePage/NavBar";
 import introductionmeimage from "../../images/introduction-me.jpeg";
-import honey1 from "../../images/honey1.jpeg";
-import honey2 from "../../images/honey2.jpeg";
-import honey3 from "../../images/honey3.jpeg";
-import honey4 from "../../images/honey4.jpeg";
-import honey5 from "../../images/honey5.jpeg";
-import honey6 from "../../images/honey6.jpeg";
-import honey7 from "../../images/honey7.jpeg";
-import honey8 from "../../images/header-image.jpeg";
-import murphy1 from "../../images/murphy9.jpg";
-import murphy2 from "../../images/murphy2.jpg";
+import honey2 from "../../images/homepage/honey2.jpeg";
+import honey3 from "../../images/homepage/honey3.jpeg";
+import honey12 from "../../images/homepage/honey12.jpg";
+import murphy1 from "../../images/homepage/murphy9.jpg";
+import murphy2 from "../../images/homepage/murphy2.jpg";
+import bloobs3 from "../../images/homepage/bloobs3.jpg";
+import bloobs2 from "../../images/homepage/bloobs2.jpg";
 
 import { Link } from "react-router-dom";
 
@@ -60,15 +57,16 @@ export default function HomePage() {
         <div className="decoration"></div>
         <div className="ServicesIntroductionContainer">
           <div className="homepage-images-container">
-            <img src={murphy1} className="homepage-images"></img>
-            <div className="inner-image-container">
-              <img src={honey4} className="inner-image"></img>
-              <img src={honey5} className="inner-image"></img>
-            </div>
             <img src={honey2} className="homepage-images"></img>
             <div className="inner-image-container">
+              <img src={bloobs3} className="inner-image"></img>
               <img src={murphy2} className="inner-image"></img>
-              <img src={honey8} className="inner-image"></img>
+            </div>
+            <img src={murphy1} className="homepage-images"></img>
+
+            <div className="inner-image-container">
+              <img src={honey12} className="inner-image"></img>
+              <img src={bloobs2} className="inner-image"></img>
             </div>
             <img src={honey3} className="homepage-images"></img>
           </div>
@@ -78,15 +76,19 @@ export default function HomePage() {
 
             <p>
               DO YOU LIKE WHAT YOU SEE?<br></br>
-              <Link to="/pricing" className="link-to-pages">
-                LEARN MORE ABOUT MY SERVICES!
+              <Link to="/pricing">
+                <button className="link-to-pages">
+                  LEARN MORE ABOUT MY SERVICES!
+                </button>
               </Link>
             </p>
             <p className="or">OR</p>
             <p>
               DO YOU HAVE ANY QUESTIONS?<br></br>
-              <Link to="/contactme" className="link-to-pages">
-                SEND ME AN EMAIL TO CONNECT!
+              <Link to="/contactme">
+                <button className="link-to-pages">
+                  SEND ME AN EMAIL TO CONNECT!
+                </button>
               </Link>
             </p>
           </div>
