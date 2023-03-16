@@ -25,3 +25,22 @@
   font-size: 18px;
   text-decoration: underline;
 }
+
+@media screen and (max-width: 480px) {
+  .NavBarGeneral {
+    height: 75px;
+    background-color: #a8b89f;
+  }
+
+  .link-general {
+    color: white;
+    text-decoration: none;
+    margin: 7.5px;
+    font-size: 14px;
+  }
+
+  .logo-img-general {
+    height: 30px;
+    margin: 0px 2.5px 0px 2.5px;
+  }
+}
