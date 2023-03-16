@@ -32,7 +32,7 @@ export default function Pricing() {
         <div className="individual-service">
           <div className="service-description-container">
             <div className="service-description-text">
-              <h2>1 HOUR AT-HOME SESSION ($200)</h2>
+              <h2>1 HOUR AT-HOME SESSION ($225)</h2>
               <p>
                 Capture you and your furry companion(s) at home, in the place
                 where they are most comfortable and surrounded by all of the
@@ -94,7 +94,7 @@ export default function Pricing() {
               </p>
               <p>
                 <b>ADOPTED PET DISCOUNT:</b> If you've adopted your furry
-                companion within the last 6 months (congratulations!), you'll
+                companion within the last year (congratulations!), you'll
                 recieve $50 off any At-Home session
               </p>
               <p>
@@ -133,7 +133,7 @@ export default function Pricing() {
           </div>
           <div className="service-description-container">
             <div className="service-description-text">
-              <h2>45 MINUTE OUTDOOR SESSION ($160)</h2>
+              <h2>45 MINUTE OUTDOOR SESSION ($175)</h2>
               <p>
                 Let's spend some time outdoors at a location that you and your
                 pet are comfortable at! *Booking a time will be based on best
@@ -195,7 +195,7 @@ export default function Pricing() {
               </p>
               <p>
                 <b>ADOPTED PET DISCOUNT:</b> If you've adopted your furry
-                companion within the last 6 months (congratulations!), you'll
+                companion within the last year (congratulations!), you'll
                 recieve $30 off any Outdoor session
               </p>
               <p>
