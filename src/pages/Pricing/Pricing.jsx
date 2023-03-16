@@ -117,7 +117,7 @@ export default function Pricing() {
           </div>
         </div>
 
-        <div className="individual-service">
+        <div className="individual-service second-individual-service">
           <div className="service-image-container sic2">
             <div className="service-images">
               <div className="service-outer-container">
