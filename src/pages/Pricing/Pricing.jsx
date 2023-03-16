@@ -11,7 +11,6 @@ import murphy18 from "../../images/pricing/murphy18.jpg";
 
 import honey1 from "../../images/pricing/honey1.jpeg";
 import honey7 from "../../images/pricing/honey7.jpeg";
-import honey16 from "../../images/pricing/honey16.jpg";
 import murphy4 from "../../images/pricing/murphy4.jpg";
 import murphy5 from "../../images/pricing/murphy5.jpg";
 import murphy10 from "../../images/pricing/murphy10.jpg";
