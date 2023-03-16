@@ -262,7 +262,7 @@
   .homepage-images {
     height: 500px;
     width: 350px;
-    margin: 0px 15px;
+    margin: 0px;
   }
 
   .inner-image-container {
@@ -273,8 +273,8 @@
 
   .inner-image {
     height: 250px;
-    width: 400px;
-    margin: 7.5px;
+    width: 375px;
+    margin: 7.5px 0px;
   }
 
   .decoration {
