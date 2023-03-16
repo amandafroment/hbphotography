@@ -28,3 +28,32 @@
   font-size: 18px;
   text-decoration: underline;
 }
+
+/* mobile media query */
+@media screen and (max-width: 480px) {
+  .NavBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 500px;
+    background-image: url("../../images/mobile-header.jpg");
+  }
+
+  .link {
+    color: white;
+    text-decoration: none;
+    margin: 2.5px 10px 2.5px 0px;
+    font-size: 14px;
+    font-family: "Rokkitt";
+    font-weight: bold;
+  }
+
+  .top-link {
+    margin-top: 25px;
+  }
+
+  .logo-img {
+    display: none;
+  }
+}

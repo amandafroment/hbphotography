@@ -161,3 +161,150 @@
   font-size: 18px;
   cursor: pointer;
 }
+
+/* mobile media query */
+@media screen and (max-width: 480px) {
+  .HomePageContainer {
+    display: flex;
+    flex-direction: column;
+    height: 4200px;
+  }
+
+  .HeaderContainer {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .HeaderContainer > h1 {
+    margin: 25px 0px 0px 0px;
+    color: rgb(86, 95, 104);
+    font-size: 28px;
+    font-family: "Shadows Into Light";
+  }
+
+  .HeaderContainer > h2 {
+    width: 90%;
+    margin-bottom: 0px;
+    color: rgb(86, 95, 104);
+    font-size: 20px;
+    line-height: 1.3;
+    font-family: "Rokkitt";
+  }
+
+  .line {
+    display: none;
+  }
+
+  .line-decoration {
+    display: none;
+  }
+
+  .IntroductionContainer {
+    height: 1300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    color: rgb(86, 95, 104);
+  }
+
+  .Introduction-Inner {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+
+  .Introduction-Inner > h3 {
+    width: 80%;
+    font-size: 28px;
+    font-family: "Shadows Into Light";
+    margin-bottom: 5px;
+  }
+
+  .introduction-paragraph {
+    width: 80%;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Rokkitt";
+    font-weight: bold;
+  }
+
+  .introduction-image {
+    height: 500px;
+  }
+
+  .ServicesIntroductionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 2900px;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .homepage-images-container {
+    width: 100%;
+    height: 2550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .homepage-images {
+    height: 500px;
+    width: 350px;
+    margin: 0px 15px;
+  }
+
+  .inner-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .inner-image {
+    height: 250px;
+    width: 400px;
+    margin: 7.5px;
+  }
+
+  .decoration {
+    display: none;
+  }
+
+  .homepage-services-description {
+    height: 350px;
+    font-size: 18px;
+    margin-top: 0px;
+  }
+
+  .decoration2 {
+    display: none;
+  }
+
+  .or {
+    text-decoration: underline;
+    font-size: 16px;
+  }
+
+  .link-to-pages {
+    height: 50px;
+    width: 300px;
+    font-family: "Rokkitt";
+    font-size: 16px;
+    background-color: #a8b89f;
+    border: 1px solid #a8b89f;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+}

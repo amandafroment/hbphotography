@@ -7,7 +7,7 @@ export default function NavBar() {
   return (
     <>
       <nav className="NavBar">
-        <Link to="/" className="link">
+        <Link to="/" className="link top-link">
           HOME
         </Link>
         <Link to="/aboutme" className="link">
