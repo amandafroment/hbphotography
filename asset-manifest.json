@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hbphotography/static/css/main.b720d915.css",
-    "main.js": "/hbphotography/static/js/main.8ae80a32.js",
+    "main.js": "/hbphotography/static/js/main.d7327136.js",
     "static/js/787.4b14bd0d.chunk.js": "/hbphotography/static/js/787.4b14bd0d.chunk.js",
     "static/media/murphy9.jpg": "/hbphotography/static/media/murphy9.80afde922429a3447691.jpg",
     "static/media/murphy2.jpg": "/hbphotography/static/media/murphy2.4db923282cd4e88a80a8.jpg",
@@ -42,11 +42,11 @@
     "static/media/logo.png": "/hbphotography/static/media/logo.f4a408a0645aba1042eb.png",
     "index.html": "/hbphotography/index.html",
     "main.b720d915.css.map": "/hbphotography/static/css/main.b720d915.css.map",
-    "main.8ae80a32.js.map": "/hbphotography/static/js/main.8ae80a32.js.map",
+    "main.d7327136.js.map": "/hbphotography/static/js/main.d7327136.js.map",
     "787.4b14bd0d.chunk.js.map": "/hbphotography/static/js/787.4b14bd0d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b720d915.css",
-    "static/js/main.8ae80a32.js"
+    "static/js/main.d7327136.js"
   ]
 }
