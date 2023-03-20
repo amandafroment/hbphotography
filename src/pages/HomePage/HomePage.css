@@ -167,7 +167,7 @@
   .HomePageContainer {
     display: flex;
     flex-direction: column;
-    height: 4300px;
+    height: 4600px;
   }
 
   .HeaderContainer {
@@ -204,13 +204,12 @@
   }
 
   .IntroductionContainer {
-    height: 1300px;
+    height: 1100px;
     width: 100%;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     color: rgb(86, 95, 104);
-    background-color: pink;
   }
 
   .Introduction-Inner {
@@ -228,6 +227,7 @@
     font-size: 28px;
     font-family: "Shadows Into Light";
     margin-bottom: 5px;
+    margin-top: 100px;
   }
 
   .introduction-paragraph {
@@ -246,10 +246,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 3000px;
+    height: 3200px;
     width: 100%;
     margin-top: 0px;
-    background-color: green;
   }
 
   .homepage-images-container {
@@ -284,7 +283,7 @@
   }
 
   .homepage-services-description {
-    height: 350px;
+    height: 400px;
     font-size: 18px;
     margin-top: 0px;
   }
