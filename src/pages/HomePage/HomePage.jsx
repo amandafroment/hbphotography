@@ -3,12 +3,13 @@ import "./HomePage.css";
 import NavBar from "../../components/NavBarHomePage/NavBar";
 import introductionmeimage from "../../images/introduction-me.jpeg";
 import honey2 from "../../images/homepage/honey2.jpeg";
-import honey3 from "../../images/homepage/honey3.jpeg";
 import honey12 from "../../images/homepage/honey12.jpg";
 import murphy1 from "../../images/homepage/murphy9.jpg";
 import murphy2 from "../../images/homepage/murphy2.jpg";
 import bloobs3 from "../../images/homepage/bloobs3.jpg";
 import bloobs2 from "../../images/homepage/bloobs2.jpg";
+import lucy1 from "../../images/homepage/lucy1.jpg";
+import lucy3 from "../../images/homepage/lucy3.jpg";
 
 import { Link } from "react-router-dom";
 
@@ -62,13 +63,13 @@ export default function HomePage() {
               <img src={bloobs3} className="inner-image"></img>
               <img src={murphy2} className="inner-image"></img>
             </div>
-            <img src={murphy1} className="homepage-images"></img>
+            <img src={lucy3} className="homepage-images"></img>
 
             <div className="inner-image-container">
-              <img src={honey12} className="inner-image"></img>
+              <img src={lucy1} className="inner-image"></img>
               <img src={bloobs2} className="inner-image"></img>
             </div>
-            <img src={honey3} className="homepage-images"></img>
+            <img src={murphy1} className="homepage-images"></img>
           </div>
 
           <div className="homepage-services-description">

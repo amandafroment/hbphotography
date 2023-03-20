@@ -5,22 +5,22 @@ import { Link } from "react-router-dom";
 
 import murphy3 from "../../images/pricing/murphy3.jpg";
 import bloobs9 from "../../images/pricing/bloobs9.jpg";
-import honey6 from "../../images/pricing/honey6.jpeg";
+import lucy7 from "../../images/pricing/lucy7.jpg";
 import bloobs7 from "../../images/pricing/bloobs7.jpg";
 import murphy18 from "../../images/pricing/murphy18.jpg";
 
 import honey1 from "../../images/pricing/honey1.jpeg";
-import honey7 from "../../images/pricing/honey7.jpeg";
+import lucy5 from "../../images/pricing/lucy5.jpg";
 import murphy4 from "../../images/pricing/murphy4.jpg";
 import murphy5 from "../../images/pricing/murphy5.jpg";
-import murphy10 from "../../images/pricing/murphy10.jpg";
+import lucy4 from "../../images/pricing/lucy4.jpg";
 
 import tattoo1 from "../../images/other-photoshoot/tattoo1.jpg";
 import megan3 from "../../images/other-photoshoot/megan3.jpg";
 import andres1 from "../../images/other-photoshoot/andres1.jpg";
+import michelle1 from "../../images/other-photoshoot/michelle1.jpg";
 import murphy23 from "../../images/other-photoshoot/murphy23.jpg";
-import wall1 from "../../images/other-photoshoot/wall1.jpg";
-import megan1 from "../../images/other-photoshoot/megan1.jpg";
+import michelle2 from "../../images/other-photoshoot/michelle2.jpg";
 import megan2 from "../../images/other-photoshoot/megan2.jpg";
 
 export default function Pricing() {
@@ -105,11 +105,11 @@ export default function Pricing() {
             <div className="service-images">
               <div className="service-outer-container">
                 <img src={murphy3} className="service-outer"></img>
-                <img src={bloobs9} className="service-outer"></img>
-              </div>
-              <img src={honey6} className="service-inner"></img>
-              <div className="service-outer-container">
                 <img src={bloobs7} className="service-outer"></img>
+              </div>
+              <img src={lucy7} className="service-inner"></img>
+              <div className="service-outer-container">
+                <img src={bloobs9} className="service-outer"></img>
                 <img src={murphy18} className="service-outer"></img>
               </div>
             </div>
@@ -120,13 +120,13 @@ export default function Pricing() {
           <div className="service-image-container sic2">
             <div className="service-images">
               <div className="service-outer-container">
-                <img src={murphy10} className="service-outer"></img>
-                <img src={murphy4} className="service-outer"></img>
+                <img src={lucy4} className="service-outer"></img>
+                <img src={murphy5} className="service-outer"></img>
               </div>
-              <img src={honey7} className="service-inner"></img>
+              <img src={lucy5} className="service-inner"></img>
               <div className="service-outer-container">
                 <img src={honey1} className="service-outer"></img>
-                <img src={murphy5} className="service-outer"></img>
+                <img src={murphy4} className="service-outer"></img>
               </div>
             </div>
           </div>
@@ -235,10 +235,10 @@ export default function Pricing() {
             <img src={megan3} className="other-inner-image"></img>
             <img src={andres1} className="other-inner-image"></img>
           </div>
-          <img src={murphy23} className="other-photoshoot-images"></img>
+          <img src={michelle1} className="other-photoshoot-images"></img>
           <div className="other-inner-image-container">
-            <img src={wall1} className="other-inner-image"></img>
-            <img src={megan1} className="other-inner-image"></img>
+            <img src={murphy23} className="other-inner-image"></img>
+            <img src={michelle2} className="other-inner-image"></img>
           </div>
           <img src={megan2} className="other-photoshoot-images"></img>
         </div>

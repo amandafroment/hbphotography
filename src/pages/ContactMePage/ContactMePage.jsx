@@ -4,6 +4,7 @@ import "./ContactMePage.css";
 import bloobs4 from "../../images/contact-me/bloobs4.jpg";
 import murphy6 from "../../images/contact-me/murphy6.jpg";
 import honey15 from "../../images/contact-me/honey15.jpg";
+import lucy8 from "../../images/contact-me/lucy8.jpg";
 import murphy1 from "../../images/homepage/murphy1.jpg";
 import bloobs5 from "../../images/contact-me/bloobs5.jpg";
 
@@ -15,7 +16,7 @@ export default function ContactMePage() {
         <div className="contactme-header-images">
           <img src={bloobs4}></img>
           <img src={murphy6} className="contactme-inner-image"></img>
-          <img src={honey15}></img>
+          <img src={lucy8}></img>
           <img src={bloobs5} className="contactme-inner-image"></img>
 
           <img src={murphy1}></img>
