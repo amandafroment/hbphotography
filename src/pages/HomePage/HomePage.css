@@ -167,7 +167,7 @@
   .HomePageContainer {
     display: flex;
     flex-direction: column;
-    height: 4200px;
+    height: 4300px;
   }
 
   .HeaderContainer {
@@ -210,6 +210,7 @@
     flex-direction: column-reverse;
     justify-content: center;
     color: rgb(86, 95, 104);
+    background-color: pink;
   }
 
   .Introduction-Inner {
@@ -245,14 +246,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 2900px;
+    height: 3000px;
     width: 100%;
     margin-top: 0px;
+    background-color: green;
   }
 
   .homepage-images-container {
     width: 100%;
-    height: 2550px;
+    height: 2600px;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -89,7 +89,7 @@ input {
 
 @media screen and (max-width: 480px) {
   .ContactMePage {
-    height: 2900px;
+    height: 3050px;
     font-family: "Rokkitt";
     display: flex;
     flex-direction: column-reverse;
@@ -110,11 +110,11 @@ input {
   }
 
   .contactme-header-images > .contactme-inner-image {
-    height: 250px;
+    height: 225px;
   }
 
   .contactme-container {
-    height: 800px;
+    height: 950px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -150,7 +150,6 @@ input {
 
   .contactme-submit {
     font-size: 16px;
-
     margin: 25px;
   }
 }

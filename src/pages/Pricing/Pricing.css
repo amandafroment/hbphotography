@@ -144,7 +144,7 @@
 
 @media screen and (max-width: 480px) {
   .ServicesContainer {
-    height: 8300px;
+    height: 8500px;
     width: 100%;
     font-family: "Rokkitt";
   }
@@ -154,7 +154,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 2550px;
+    height: 2650px;
     width: 100%;
   }
 
@@ -267,8 +267,8 @@
   }
 
   .other-inner-image {
-    height: 250px;
-    width: 400px;
+    height: 225px;
+    width: 350px;
     margin: 10px;
   }
 
