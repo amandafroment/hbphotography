@@ -6,9 +6,10 @@ import App from "./pages/App/App";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
   <React.StrictMode>
-    <Router>
+    <Router onUpdate={() => window.scrollTo(0, 0)}>
       <App />
     </Router>
   </React.StrictMode>

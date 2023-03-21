@@ -237,7 +237,7 @@ export default function Pricing() {
           </div>
           <img src={michelle1} className="other-photoshoot-images"></img>
           <div className="other-inner-image-container">
-            <img src={murphy23} className="other-inner-image"></img>
+            <img src={murphy23} className="other-inner-image megan-d-pic"></img>
             <img src={michelle2} className="other-inner-image"></img>
           </div>
           <img src={megan2} className="other-photoshoot-images"></img>
